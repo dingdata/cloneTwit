@@ -1,0 +1,102 @@
+.parent {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 5 / 3;
+  background-color: rgb(29, 161, 242);
+  font-family: Arial;
+  font-size: 20px;
+}
+.div2 {
+  grid-area: 1 / 3 / 2 / 6;
+  background-color: rgb(29, 161, 242);
+  font-family: Arial;
+  font-size: 20px;
+}
+.div3 {
+  grid-area: 2 / 3 / 3 / 6;
+  background-color: rgb(29, 161, 242);
+  font-family: Arial;
+  font-size: 20px;
+}
+.div4 {
+  grid-area: 3 / 3 / 4 / 6;
+  background-color: rgb(29, 161, 242);
+  font-family: Arial;
+  font-size: 20px;
+}
+.div5 {
+  grid-area: 4 / 3 / 5 / 6;
+  background-color: rgb(29, 161, 242);
+  font-family: Arial;
+  font-size: 20px;
+}
+.div6 {
+  grid-area: 5 / 1 / 6 / 6;
+}
+div1,
+div2,
+div3,
+div4,
+div4 {
+}
+/* body {
+  background-color: rgb(29, 161, 242);
+  font-family: Arial;
+  font-size: 20px;
+} */
+
+h1 {
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+}
+input {
+  width: 198px;
+  height: 46px;
+  left: 596px;
+  top: 129px;
+  border-radius: 10px;
+  background: #ffffff;
+  order: 2px solid #e5e5e5;
+  box-sizing: border-box;
+}
+
+button {
+  width: 88px;
+  height: 38px;
+  left: 1032px;
+  top: 130px;
+
+  background: #ffffff;
+  border: 3px solid #1da1f2;
+  box-sizing: border-box;
+  border-radius: 25px;
+}
+img {
+  width: 100%;
+  height: 100%;
+}
+
+#footer {
+  position: absolute;
+  width: 828px;
+  height: 44px;
+  left: 106px;
+  top: 657px;
+
+  background: #e5e5e5;
+}
