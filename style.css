@@ -8,48 +8,39 @@
 
 .div1 {
   grid-area: 1 / 1 / 5 / 3;
-  background-color: rgb(29, 161, 242);
-  font-family: Arial;
-  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  background-image: url("images/twitterclone.jpg");
+  background-size: cover;
+  color: #fafafa;
+  text-align: center;
+  text-justify: left;
 }
 .div2 {
   grid-area: 1 / 3 / 2 / 6;
-  background-color: rgb(29, 161, 242);
-  font-family: Arial;
-  font-size: 20px;
+  background-color: rgb(255, 255, 255);
 }
 .div3 {
   grid-area: 2 / 3 / 3 / 6;
-  background-color: rgb(29, 161, 242);
-  font-family: Arial;
-  font-size: 20px;
+  background-color: rgb(255, 255, 255);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  right: 0px;
 }
+
 .div4 {
   grid-area: 3 / 3 / 4 / 6;
-  background-color: rgb(29, 161, 242);
-  font-family: Arial;
-  font-size: 20px;
+  background-color: rgb(255, 255, 255);
 }
 .div5 {
   grid-area: 4 / 3 / 5 / 6;
-  background-color: rgb(29, 161, 242);
-  font-family: Arial;
-  font-size: 20px;
+  background-color: rgb(255, 255, 255);
 }
 .div6 {
   grid-area: 5 / 1 / 6 / 6;
 }
-div1,
-div2,
-div3,
-div4,
-div4 {
-}
-/* body {
-  background-color: rgb(29, 161, 242);
-  font-family: Arial;
-  font-size: 20px;
-} */
 
 h1 {
   font-size: 35px;
@@ -66,25 +57,26 @@ p {
 }
 input {
   width: 198px;
-  height: 46px;
+  height: 38px;
   left: 596px;
   top: 129px;
-  border-radius: 10px;
+  border-radius: 6px;
   background: #ffffff;
   order: 2px solid #e5e5e5;
   box-sizing: border-box;
 }
 
-button {
+button.login {
   width: 88px;
   height: 38px;
   left: 1032px;
   top: 130px;
 
   background: #ffffff;
-  border: 3px solid #1da1f2;
+  border: 2px solid #1da1f2;
   box-sizing: border-box;
   border-radius: 25px;
+  color: #1da1f2;
 }
 img {
   width: 100%;
@@ -92,11 +84,29 @@ img {
 }
 
 #footer {
-  position: absolute;
   width: 828px;
   height: 44px;
-  left: 106px;
-  top: 657px;
-
   background: #e5e5e5;
+  text-align: center;
+}
+
+button.login_big {
+  width: 290px;
+  height: 38px;
+
+  background: #ffffff;
+  border: 2px solid #1da1f2;
+  margin: 5px;
+  box-sizing: border-box;
+  border-radius: 25px;
+  color: #1da1f2;
+}
+button.signin_big {
+  width: 290px;
+  height: 38px;
+  background: #1da1f2;
+  border: 3px solid #1da1f2;
+  margin: 5px;
+  box-sizing: border-box;
+  border-radius: 25px;
 }
